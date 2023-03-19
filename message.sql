@@ -1,6 +1,6 @@
 -- phpMyAdmin SQL Dump
 -- version 5.2.0
--- https://www.phpmyadmin.net/
+-- http://localhost/phpmyadmin/index.php?route=/table/structure&db=myinfo&table=message
 --
 -- Host: 127.0.0.1
 -- Generation Time: Mar 19, 2023 at 01:37 PM
