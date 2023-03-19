@@ -1,6 +1,4 @@
 <?php
-
-
 $con = mysqli_connect('localhost','root');
 
 if($con){
@@ -20,11 +18,6 @@ $message = $_POST['message'];
 
 $query = " insert into message (name , email , subject , message)
 values ('$name' , '$email' , '$subject' , '$message' ) ";
-
 echo"$query";
-
 mysqli_query($con,$query);
-
-
-
 ?>
