@@ -1,0 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.Tc {
+    margin: auto;
+    padding-bottom: 20%;
+    border-radius: 12%;
+    scroll-margin-top: 30%;
+    margin-bottom: 30%;
+}

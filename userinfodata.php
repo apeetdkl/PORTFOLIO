@@ -1,6 +1,4 @@
 <?php
-
-
 $con = mysqli_connect('localhost','root');
 
 if($con){
@@ -24,7 +22,6 @@ values ('$name' , '$email' , '$subject' , '$message' ) ";
 echo"$query";
 
 mysqli_query($con,$query);
-
 
 
 ?>
