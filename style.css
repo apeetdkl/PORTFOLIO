@@ -188,7 +188,7 @@
                     }
                     
                     nav ul li {
-                        display: inline-block;
+                        display: inline-table;
                     }
                     
                     nav ul li a {
@@ -201,10 +201,10 @@
                     }
                     
                     nav ul ul {
-                        position: sticky;
+                        position: absolute;
                         top: 55px;
                         opacity: 0;
-                        visibility: hidden;
+                        visibility: visible;
                     }
                     
                     nav ul li:hover>ul {
@@ -216,7 +216,7 @@
                     
                     nav ul ul li {
                         width: 100px;
-                        display: list-item;
+                        display: inline-block;
                         position: relative;
                         border-top: none;
                     }
