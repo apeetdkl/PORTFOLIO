@@ -201,7 +201,7 @@
                     }
                     
                     nav ul ul {
-                        position: absolute;
+                        position: sticky;
                         top: 55px;
                         opacity: 0;
                         visibility: hidden;
