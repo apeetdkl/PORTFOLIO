@@ -769,6 +769,12 @@
                             margin: 20px 0;
                             font-size: 25px;
                         }
+                       .navbar .menu li ul {
+                            display: flow-root;
+                            margin: 20px;
+                            margin-top: 450px;
+                            font-size: 25px;
+                        }
                         .home .home-content .text-2 {
                             font-size: 70px;
                         }
