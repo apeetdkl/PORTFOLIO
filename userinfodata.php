@@ -1,4 +1,8 @@
 <?php
+$host = "localhost";
+$user = "root";
+$password = "";
+$database = "myinfo";
 $con = mysqli_connect('localhost','root');
 
 if($con){
