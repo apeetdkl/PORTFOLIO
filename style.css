@@ -769,7 +769,11 @@
                             margin: 20px 0;
                             font-size: 25px;
                         }
+<<<<<<< HEAD
                         .navbar .menu li ul {
+=======
+                       .navbar .menu li ul {
+>>>>>>> 1a903abcda64a4a658bd4f548d921a1de165e367
                             display: flow-root;
                             margin: 20px;
                             margin-top: 450px;
