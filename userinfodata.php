@@ -1,5 +1,10 @@
 <?php
-$con = mysqli_connect('localhost','root');
+
+$servername = "185.27.134.136";
+$username = "epiz_33846110";
+$passsword = "f2wZ0OA6HB4W";
+$database = "epiz_33846110_myinfo";
+
 
 if($con){
     echo"Connection Successful";
