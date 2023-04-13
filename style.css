@@ -31,12 +31,12 @@
                     /* all similar content styling codes */
                     
                     section {
-                        padding: 80px 0;
+                        padding: 100px 0;
                     }
                     
                     .max-width {
                         max-width: 1300px;
-                        padding: 0 30px;
+                        padding: 0 80px;
                         margin: auto;
                     }
                     
@@ -133,7 +133,7 @@
                     }
                     
                     .navbar .menu li a {
-                        display: list-item;
+                        display: block;
                         color: #fff;
                         font-size: 18px;
                         font-weight: 500;
@@ -184,59 +184,7 @@
                     }
                     
                     .scroll-up-btn:hover {
-                        filter: brightness(70%);
-                    }
-                    
-                    nav ul li {
-                        display: inline-table;
-                    }
-                    
-                    nav ul li a {
-                        color: white;
-                        display: block;
-                        padding: 0 5px;
-                        line-height: 40px;
-                        font-size: 20px;
-                        transition: .5s;
-                    }
-                    
-                    nav ul ul {
-                        position: absolute;
-                        top: 55px;
-                        opacity: 0;
-                        visibility: visible;
-                    }
-                    
-                    nav ul li:hover>ul {
-                        top: 70px;
-                        opacity: 1;
-                        visibility: visible;
-                        transition: .3s linear;
-                    }
-                    
-                    nav ul ul li {
-                        width: 100px;
-                        display: inline-block;
-                        position: relative;
-                        border-top: none;
-                    }
-                    
-                    nav ul ul li a {
-                        line-height: 50px;
-                    }
-                    
-                    nav ul ul ul {
-                        border-top: none;
-                    }
-                    
-                    nav ul ul ul li {
-                        position: relative;
-                        top: -70px;
-                        left: 100px;
-                    }
-                    
-                    nav ul ul li a i {
-                        margin-left: 35px;
+                        filter: brightness(90%);
                     }
                     /* home section styling */
                     
@@ -767,16 +715,6 @@
                         .navbar .menu li a {
                             display: inline-block;
                             margin: 20px 0;
-                            font-size: 25px;
-                        }
-<<<<<<< HEAD
-                        .navbar .menu li ul {
-=======
-                       .navbar .menu li ul {
->>>>>>> 1a903abcda64a4a658bd4f548d921a1de165e367
-                            display: flow-root;
-                            margin: 20px;
-                            margin-top: 450px;
                             font-size: 25px;
                         }
                         .home .home-content .text-2 {
